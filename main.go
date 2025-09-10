@@ -10,7 +10,7 @@ import (
 
 
 func main() {
-	fmt.Println("bola")
+	fmt.Println("Servidor rodando inicializado: http://localhost:8000")
 	routes.CarregaRotas()
 	http.ListenAndServe(":8000", nil)
 }
